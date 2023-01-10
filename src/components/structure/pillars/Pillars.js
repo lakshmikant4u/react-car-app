@@ -1,7 +1,10 @@
 import React from 'react'
 
-export default function Pillars() {
+export default function Pillars(Props) {
     return (
-        <div>Pillars</div>
+        <> <div>Pillars</div>
+        {Props.children}
+        </>
+       
     )
 }

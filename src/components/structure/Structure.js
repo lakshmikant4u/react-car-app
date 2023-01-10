@@ -6,10 +6,15 @@ import './structure.css';
 
 export default function Structure() {
     return (
-        <div className='padding20'>
+        <div className='Right'>
             <div>
-                <header>Structure</header>
-                <Pillars />
+                <header><h3>Structure</h3></header>
+               <Pillars>
+              <li>Pillar A</li>
+              <li>Pillar B</li>
+              <li>Pillar C</li>
+              <li>Pillar D</li>
+               </Pillars>
                 <Sheetmetals />
                 <Doors />
             </div>

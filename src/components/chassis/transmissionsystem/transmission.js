@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default function transmission() {
+export default function transmission(Props) {
   return (
-    <div>transmission</div>
+    <>
+        <div>Transmission System</div>
+        {Props.children}
+    </>
+
   )
 }
