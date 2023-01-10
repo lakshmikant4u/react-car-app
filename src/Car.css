@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(230, 217, 230);
+}
+
+
+.App{
+    text-align: center;
+}
+
+h1{
+    color: teal;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

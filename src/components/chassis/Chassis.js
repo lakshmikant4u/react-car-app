@@ -8,13 +8,24 @@ import Transmissionsystem from './transmissionsystem/transmission'
 export default function Chassis() {
     return (
         <>
-        <div>Chassis</div>
-        <Engine/>
+        <div className='left'>Chassis</div>
+        <Axles>
+            <li>Front</li>
+            <li>Rear</li>
+        </Axles>
+        <Transmissionsystem>
+            <li>Automatic</li>
+            <li>Manual</li>
+        </Transmissionsystem>
+        <Engine>
+            <li>Diesel</li>
+            <li>Petrol</li>
+            <li>Hybrid</li>
+        </Engine>
         <Suspensionsystem/>
         <Wheels/>
-        <Axles/>
         <Steel/>
-        <Transmissionsystem/>
+       
         </>
     )
 }
