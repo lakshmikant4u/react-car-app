@@ -9,14 +9,14 @@ export default function Structure() {
         <div className='Right'>
             <div>
                 <header><h3>Structure</h3></header>
-               <Pillars>
+                {/* <Pillars>
               <li>Pillar A</li>
               <li>Pillar B</li>
               <li>Pillar C</li>
               <li>Pillar D</li>
                </Pillars>
                 <Sheetmetals />
-                <Doors />
+                <Doors /> */}
             </div>
 
         </div>

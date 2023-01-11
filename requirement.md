@@ -13,8 +13,9 @@ Car -
             rear
         Suspension system
         Engine
+
+    capacity - 800cc , 1000cc, 1200cc
             diesel
-                capacity - 800cc , 1000cc, 1200cc
             petrol
             hybrid
         wheels

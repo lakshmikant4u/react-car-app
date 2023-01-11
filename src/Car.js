@@ -1,6 +1,7 @@
 //import Chassis from "./components/chassis/Chassis";
 import Structure from "./components/structure/Structure";
 import "./Car.css";
+import Chassis from "./components/chassis/Chassis"
 
 function Car() {
   return (
@@ -9,7 +10,7 @@ function Car() {
         <h1>Cars</h1>
       </div>
       <Structure />
-      {/*<Chassis />*/}
+      <Chassis />
     </>
   );
 }

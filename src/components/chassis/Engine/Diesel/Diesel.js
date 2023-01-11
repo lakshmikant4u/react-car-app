@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Diesel() {
+export default function Diesel(props) {
+
   return (
-    <div>Diesel</div>
+    <div>Engine type {props.type} with engine from {props.engine} Capacity {props.engineCapacity}</div>
   )
 }
